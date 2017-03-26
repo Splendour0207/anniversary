@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>love</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+#overlay{
+	background-color:gray;
+	left:0;
+	opacity: 0.5;
+	position:absolute;
+	top:0;
+	z-index: 3;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/animate.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+<audio autoplay="autopaly">
+  <source src="haha.mp3"type="audio/mp3" />
+</audio>
+<div id="mainDiv" >
+	<div id="overlay"></div>
+	<div id="content">
+		<div id="code">
+			<!--<span class="comments">/**</span><br />-->
+			<span class="space"/><span class="comments">*2015-12-19,</span><br />
+			<span class="space"/><span class="comments">  ~2016-12-19.</span><br />
+			<!--<span class="space"/><span class="comments">*/</span><br />-->
+			Boy name = <span class="keyword">Mr</span> JIAQ<br />
+			Girl name = <span class="keyword">Mrs</span> QIAO<br />
+			<span class="comments">后来</span><br/>
+			JIAQ病了，焦虑、恐惧、强迫...<br/>
+			半夜惊醒时，会想到Qiao正在干嘛，是不是也在伤心流泪<br/>
+			恐惧来袭时，会舍不得我亲爱的Qiao<br/>
+			<span></span><br/>
+			<span class="comments">再后来</span><br/>
+			开始无理地要求Qiao<br/>
+			洗手、不要碰这个、不要碰那个...<br/>
+			忽略了所有<br/>
+			本该快乐的东西和关心<br/>
+			我害怕自己就这么离开这个美好的世界
+			也害怕你会受到伤害<br/>
+
+		   <span></span><br/>
+			<span class="comments">我们哭过 </span><br />
+			我们也哈哈大笑过<br />
+			<span class="comments">我们抽着嘴巴喊对方滚过.</span><br />
+			我们也激动相拥不愿分开过<br />
+		    <span class="keyword">但亲爱的你，却从未曾放弃过我</span><br/>
+			<span class="comments">我们有很多地方看法不一</span><br />
+			我总是那么小心翼翼，你却依旧放荡不羁<br />
+			<span class="comments">你总期望着能回到那个以前懂你的我</span><br />
+			我也希望稳稳的幸福<br/>
+			<span class="comments">但别人简单的快乐，我却来的很困难</span><br />
+			...<br/>
+			<br/>
+			<span class="keyword">亲爱的，让我换种方式爱你吧！</span><br/>
+			<span class="keyword">我会做的很好</span><br/>
+			<span class="keyword">不再让亲爱的你，失望。</span><br/>
+
+			<br>
+			<br>
+			我想大声告诉你：<br />
+			&nbsp;&nbsp;<span class="keyword">亲爱的椒太太, 你的藕先生一直都在！</span><br />
+			<div id="copyright1">
+				<a href="#" id="clip">点击你的藕先生.</a><br />
+				<a href="#">不点我的椒太太.</a><br />
+
+			</div>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					亲爱的QIAO，这是我们在一起相爱的时光：
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					爱你直到永永远远。<br/>
+					<div class="signature">- 爱你的JIAQ</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<a href="#" id="clip"></a><br />
+		<a href="#"></a><br />
+	</div>
+	<div id="picture" style="display: block">
+		<ul class="image">
+			<li class="li1"><img src="images/1.jpg" alt="" width="200" height="200"/></li>
+			<li class="li2"><img src="images/2.jpg" alt="" width="200" height="200"/></li>
+			<li class="li3"><img src="images/3.jpg" alt="" width="200" height="200"/></li>
+			<li class="li4"><img src="images/4.jpg" alt="" width="200" height="150"/></li>
+			<li class="li5"><img src="images/5.jpg" alt="" width="200" height="200" /></li>
+			<li class="li6"><img src="images/6.jpg" alt="" width="200" height="200"></li>
+			<li class="li7"><img src="images/7.jpg" alt="" width="200" height="200"></li>
+			<li class="li8"><img src="images/8.jpg" alt="" width="200" height="100"></li>
+			<li class="li9"><img src="images/9.jpg" alt="" width="200" height="200"/></li>
+			<li class="li10"><img src="images/10.jpg" alt="" width="200" height="200" /></li>
+			<li class="li11"><img src="images/11.jpg" alt="" width="200" height="200"></li>
+			<li class="li12"><img src="images/12.jpg" alt="" width="200" height="200"></li>
+			<li class="li13"><img src="images/13.jpg" alt="" width="200" height="200"></li>
+			<li class="li14"><img src="images/14.jpg" alt="" width="200" height="200" /></li>
+			<li class="li15"><img src="images/15.jpg" alt="" width="200" height="200"></li>
+			<li class="li16"><img src="images/16.jpg" alt="" width="200" height="200"></li>
+			<li class="li17"><img src="images/17.jpg" alt="" width="200" height="200"></li>
+		</ul>
+	</div>
+	
+</div>
+<div ><marquee id="ddd"></marquee></div>
+<script>
+	var f = function (){
+		document.getElementById("ddd").innerHTML="亲爱的，一周年快乐!";
+	}
+	setTimeout(f, 80000);
+</script>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2015, 11, 16);
+together.setHours(22);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none");
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+	$('#code').click(function(){
+		console.log("1");
+        var bh=$(document).height();
+		var bw=$(document).width();
+		$('#overlay').css({
+			height:bh,
+			width:bw
+		});
+		$('#overlay').fadeIn("slow");
+		var ali=$('#picture li');
+		var m=Number(ali.length);
+		//console.log($(ali[0]));
+		//$(ali[0]).addClass('active');
+		//clearInterval(int);
+		$('.li1').delay(500).addClass("active animated rotateIn");
+		$('.li2').delay(5000).addClass("active animated slideInRight");
+		$('.li3').delay('slow').addClass("active animated slideInDown");
+		$('.li4').delay('slow').addClass("active animated fadeInLeftBig");
+		$('.li5').delay('slow').addClass("active animated fadeInRightBig");
+		$('.li6').delay('slow').addClass("active animated fadeInDownBig");
+		$('.li7').delay('slow').addClass("active animated rotateInDownLeft");
+		$('.li8').delay('slow').addClass("active animated lightSpeedIn");
+		$('.li9').delay('slow').addClass("active animated fadeInRight");
+		$('.li10').delay('slow').addClass("active animated lightSpeedIn");
+		$('.li11').delay('slow').addClass("active animated rotateIn");
+		$('.li12').delay('slow').addClass("active animated fadeInDownBig");
+		$('.li13').delay('slow').addClass("active animated lightSpeedIn");
+		$('.li14').delay('slow').addClass("active animated fadeInLeftBig");
+		$('.li15').delay('slow').addClass("active animated slideInDown");
+		$('.li16').delay('slow').addClass("active animated rotateInDownLeft");
+		$('.li17').delay('slow').addClass("active animated fadeIn");
+	})
+}
+</script>
+
+
+</body>
+</html>
